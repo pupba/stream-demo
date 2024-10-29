@@ -20,7 +20,7 @@ class GUI:
 
         # self.output_placeholder = st.empty  # 초기화
 
-        self.__loras = ("Harry Potter","Fool me Once", "One Day", "Baby Reindeer", "Eric", "The 8 Show", "Supacell")
+        self.__loras = ("Harry Potter")
         app = self.__gui_main() # Main GUI
 
     def __clear_form(self):
